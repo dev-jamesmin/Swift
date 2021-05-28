@@ -20,7 +20,8 @@ class ViewController: UIViewController {
 //        Optional(2)
 //        Optional => Context
 //        2 => Content
-
+//        map -> Functor
+//        flatMap -> Monad
     }
 
 }
