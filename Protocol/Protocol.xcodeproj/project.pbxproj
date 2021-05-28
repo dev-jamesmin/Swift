@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		636B02F12660CAD200BAAE16 /* Singing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B02F02660CAD200BAAE16 /* Singing.swift */; };
+		636B02F32660CAE700BAAE16 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B02F22660CAE700BAAE16 /* Bird.swift */; };
+		636B02F52660CB3A00BAAE16 /* Dancing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B02F42660CB3A00BAAE16 /* Dancing.swift */; };
+		636B02F72660CB4C00BAAE16 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B02F62660CB4C00BAAE16 /* Human.swift */; };
+		636B02F92660CB8000BAAE16 /* Entertaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B02F82660CB8000BAAE16 /* Entertaining.swift */; };
+		636B02FB2660CBA800BAAE16 /* HoldingBreath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B02FA2660CBA800BAAE16 /* HoldingBreath.swift */; };
+		636B02FE2660CBD900BAAE16 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B02FD2660CBD900BAAE16 /* MyClass.swift */; };
+		636B03002660CC0700BAAE16 /* Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B02FF2660CC0700BAAE16 /* Named.swift */; };
+		636B03022660CE2100BAAE16 /* MyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B03012660CE2100BAAE16 /* MyProtocol.swift */; };
 		638BB942265B83FD0006554C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638BB941265B83FD0006554C /* AppDelegate.swift */; };
 		638BB944265B83FD0006554C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638BB943265B83FD0006554C /* SceneDelegate.swift */; };
 		638BB946265B83FD0006554C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638BB945265B83FD0006554C /* ViewController.swift */; };
@@ -37,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		636B02F02660CAD200BAAE16 /* Singing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singing.swift; sourceTree = "<group>"; };
+		636B02F22660CAE700BAAE16 /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		636B02F42660CB3A00BAAE16 /* Dancing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dancing.swift; sourceTree = "<group>"; };
+		636B02F62660CB4C00BAAE16 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		636B02F82660CB8000BAAE16 /* Entertaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entertaining.swift; sourceTree = "<group>"; };
+		636B02FA2660CBA800BAAE16 /* HoldingBreath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingBreath.swift; sourceTree = "<group>"; };
+		636B02FD2660CBD900BAAE16 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		636B02FF2660CC0700BAAE16 /* Named.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Named.swift; sourceTree = "<group>"; };
+		636B03012660CE2100BAAE16 /* MyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProtocol.swift; sourceTree = "<group>"; };
 		638BB93E265B83FD0006554C /* Protocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Protocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		638BB941265B83FD0006554C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		638BB943265B83FD0006554C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +98,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		636B02FC2660CBBF00BAAE16 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				638BB971265B88590006554C /* Student.swift */,
+				638BB973265B895D0006554C /* Aiden.swift */,
+				636B02F02660CAD200BAAE16 /* Singing.swift */,
+				636B02F22660CAE700BAAE16 /* Bird.swift */,
+				636B02F42660CB3A00BAAE16 /* Dancing.swift */,
+				636B02F62660CB4C00BAAE16 /* Human.swift */,
+				636B02F82660CB8000BAAE16 /* Entertaining.swift */,
+				636B02FF2660CC0700BAAE16 /* Named.swift */,
+				636B03012660CE2100BAAE16 /* MyProtocol.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		638BB935265B83FD0006554C = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +137,7 @@
 		638BB940265B83FD0006554C /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				636B02FC2660CBBF00BAAE16 /* New Group */,
 				638BB941265B83FD0006554C /* AppDelegate.swift */,
 				638BB943265B83FD0006554C /* SceneDelegate.swift */,
 				638BB945265B83FD0006554C /* ViewController.swift */,
@@ -110,8 +145,8 @@
 				638BB94A265B83FF0006554C /* Assets.xcassets */,
 				638BB94C265B83FF0006554C /* LaunchScreen.storyboard */,
 				638BB94F265B83FF0006554C /* Info.plist */,
-				638BB971265B88590006554C /* Student.swift */,
-				638BB973265B895D0006554C /* Aiden.swift */,
+				636B02FA2660CBA800BAAE16 /* HoldingBreath.swift */,
+				636B02FD2660CBD900BAAE16 /* MyClass.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -265,8 +300,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				638BB946265B83FD0006554C /* ViewController.swift in Sources */,
+				636B02F92660CB8000BAAE16 /* Entertaining.swift in Sources */,
+				636B02F32660CAE700BAAE16 /* Bird.swift in Sources */,
+				636B02F12660CAD200BAAE16 /* Singing.swift in Sources */,
 				638BB974265B895D0006554C /* Aiden.swift in Sources */,
+				636B02F72660CB4C00BAAE16 /* Human.swift in Sources */,
+				636B03002660CC0700BAAE16 /* Named.swift in Sources */,
+				636B03022660CE2100BAAE16 /* MyProtocol.swift in Sources */,
+				636B02F52660CB3A00BAAE16 /* Dancing.swift in Sources */,
 				638BB942265B83FD0006554C /* AppDelegate.swift in Sources */,
+				636B02FE2660CBD900BAAE16 /* MyClass.swift in Sources */,
+				636B02FB2660CBA800BAAE16 /* HoldingBreath.swift in Sources */,
 				638BB944265B83FD0006554C /* SceneDelegate.swift in Sources */,
 				638BB972265B88590006554C /* Student.swift in Sources */,
 			);
