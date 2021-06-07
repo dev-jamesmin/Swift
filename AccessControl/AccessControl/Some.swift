@@ -7,9 +7,19 @@
 
 import Foundation
 
-public class SomeClass{}
+//public class SomeClass{}
 
 public struct SomeStruct {}
 
 public enum SomeEnum {}
 
+// open
+// public
+
+public class SomeClass{
+
+    fileprivate var someProperty : String = "someProperty"
+
+    private func someFunction() {}
+
+}
