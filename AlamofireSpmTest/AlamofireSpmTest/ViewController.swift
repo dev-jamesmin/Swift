@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     }
     
     ///샘플 사용
-    /// 최신 버전은 AF 로 불가?
-    ///  AF-> import 우선
+    /// 최신 버전은 AF 로 불가? -> 가능
+    ///  AF-> import 우선 확인 필요.
     func getTest() {
             let url = "https://jsonplaceholder.typicode.com/todos/1"
             AF.request(url,
