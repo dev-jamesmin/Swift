@@ -28,7 +28,6 @@ class ViewController: UIViewController {
                        headers: ["Content-Type":"application/json", "Accept":"application/json"])
                 .validate(statusCode: 200..<300)
                 .responseJSON { response in
-                    //여기서 가져온 데이터를 자유롭게 활용하세요.
                     print(response)
             }
         
