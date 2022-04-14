@@ -12,7 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         getTest()
     }
     
@@ -28,24 +27,30 @@ class ViewController: UIViewController {
                        headers: ["Content-Type":"application/json", "Accept":"application/json"])
                 .validate(statusCode: 200..<300)
                 .responseJSON { response in
-                    print(response)
+                    print("RESULT")
+                    print(response.result)
             }
         
         
-//        AF.request(url, method: .get, parameters: nil, headers: Constant.HEADER)
-//                    .validate(statusCode: 200..<500)
-//                    //200~500사이 상태만 허용
-//                    .validate(contentType: ["application/json"])
-//                    //JSON 포맷만 허용
-//                    .responseDecodable(of: PresentMoaHomeResponse.self) { response in
-//                        switch response.result {
-//                        case .success(let response):
-//                            viewController.serverData = response.data
-//                            viewController.didSuccessGot(message: response.message!)
-//                        case .failure(let error):
-//                            print(error.localizedDescription)
-//                        }
-//                    }
+        // 타입 정확한 명시가 필요
+        // 결과값에서 0으로 표기 되나 completed bool 값이다.
+        AF.request(url,
+                   method: .get,
+                   parameters: nil,
+                   headers: ["Content-Type":"application/json", "Accept":"application/json"])
+                    .validate(statusCode: 200..<500)
+                    //200~500사이 상태만 허용
+                    //JSON 포맷만 허용
+                    .responseDecodable(of: SearchResult.self) { response in
+                        print(response)
+                        switch response.result {
+                        case .success(let response):
+                            print("RESULT-2")
+                            print(response)
+                        case .failure(let error):
+                            print(error.localizedDescription)
+                        }
+                    }
         }
 
 
